@@ -1,0 +1,16 @@
+// Manipular uma promessa cumprida usando o then
+
+const makeServerRequest = new Promise((resolve, reject) => {
+  // responseFromServer está definido como verdadeiro para representar uma resposta de sucesso de um servidor
+  let responseFromServer = true;
+
+  if(responseFromServer) {
+    resolve("We got the data");
+  } else {  
+    reject("Data not received");
+  }
+});
+
+makeServerRequest.then(result => {
+  console.log(result)
+});
