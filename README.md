@@ -1,2 +1,2 @@
 # freeCodeCamp
-Exercícios, desafios e projetos propostos nos cursos realizados na plataforma: https://www.freecodecamp.org/
+Exercícios, desafios e projetos propostos no curso de "Algoritmos e estruturas de dados em JavaScript" realizado na plataforma: https://www.freecodecamp.org/
