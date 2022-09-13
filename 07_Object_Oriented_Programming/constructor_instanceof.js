@@ -6,5 +6,5 @@ function House(numBedrooms) {
 
 const myHouse = new House(2)
 
-// retorna true
+// returns true
 myHouse instanceof House;
