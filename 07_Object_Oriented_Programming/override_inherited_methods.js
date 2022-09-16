@@ -13,4 +13,5 @@ Penguin.prototype.fly = function(){
 }
 
 let penguin = new Penguin();
+
 console.log(penguin.fly());

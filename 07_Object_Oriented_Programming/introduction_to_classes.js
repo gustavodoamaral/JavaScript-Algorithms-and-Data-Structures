@@ -17,7 +17,10 @@ class Dog {
 }
 
 const halley = new Dog('Halley');
+
 console.log(halley.name);
 console.log(halley.behavior);
+
 halley.incrementBehavior();
+
 console.log(halley.behavior);
