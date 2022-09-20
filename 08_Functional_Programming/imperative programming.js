@@ -20,14 +20,11 @@ Window.prototype.tabOpen = function(tab) {
 // Quando você fecha uma aba
 Window.prototype.tabClose = function(index) {
 
-  // Altere apenas o código abaixo desta linha
 
   const tabsBeforeIndex = this.tabs.splice(0, index); // Obtém as abas antes da aba
   const tabsAfterIndex = this.tabs.splice(1); // Obtém as abas após a aba
 
-  this.tabs = tabsBeforeIndex.concat(tabsAfterIndex); // Junte-as
-
-  // Altere apenas o código acima desta linha
+  this.tabs = tabsBeforeIndex.concat(tabsAfterIndex); // Juntar
 
   return this;
  };
