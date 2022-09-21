@@ -11,7 +11,6 @@ function add(bookListArr, bookName) {
   };
 
   finalBookList.push(bookName);
-  console.log(finalBookList)
   return finalBookList;
 
 };
