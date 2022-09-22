@@ -124,6 +124,6 @@ filteredList = filteredList.map(function(obj) {
     title: obj["Title"], 
     rating: obj["imdbRating"]
   }
-})
+});
 
 console.log(filteredList);
