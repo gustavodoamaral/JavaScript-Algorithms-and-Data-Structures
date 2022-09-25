@@ -121,7 +121,7 @@ function getRating(watchList) {
 
   filteredList = filteredList.map(function(obj) {
     return {
-      rating: parseFloat(obj["imdbRating"])
+      rating: parseFloat(obj["imdbRating"]) 
     }
   })
 
