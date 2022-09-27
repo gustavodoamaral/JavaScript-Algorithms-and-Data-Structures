@@ -4,7 +4,7 @@ function urlSlug(title) {
 
   let localString = title.toLowerCase().trim()
   
-  let slug = localString.split(/[^\w-]+/g).join("-")
+  let slug = localString.split(/\s+/).join("-")
 
   console.log(slug)
 
