@@ -8,8 +8,8 @@ function spinalCase(str) {
 
 spinalCase('The_Andy_Griffith_Show');
 
-  //let str = str.split(/(?=[A-Z])/)
-  //str = str.toString()
-  //str = str.replace(/,/g, ' ')
-  //str = str.replace(/[- ]+/g, "-")
-  //str = str.replace(/[_ -]+/g, "-")
+/*let str = str.split(/(?=[A-Z])/)
+str = str.toString()
+str = str.replace(/,/g, ' ')
+str = str.replace(/[- ]+/g, "-")
+str = str.replace(/[_ -]+/g, "-")*/

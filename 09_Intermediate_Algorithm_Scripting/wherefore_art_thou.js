@@ -8,10 +8,4 @@ function whatIsInAName(collection, source) {
   .reduce((a, b) => a && b))
 };
 
-whatIsInAName([{ first: "Romeo", last: "Montague" }, 
-
-{ first: "Mercutio", last: null }, 
-
-{ first: "Tybalt", last: "Capulet" }], 
-
-{ last: "Capulet" });
+whatIsInAName([{ first: "Romeo", last: "Montague" }, { first: "Mercutio", last: null }, { first: "Tybalt", last: "Capulet" }], { last: "Capulet" });
