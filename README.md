@@ -1,2 +1,2 @@
-# freeCodeCamp
-Exercícios, desafios e projetos propostos no curso de "Algoritmos e estruturas de dados em JavaScript" realizado da plataforma Free Code Camp. 
+# JavaScript Algorithms and Data Structures
+Exercícios, desafios e projetos realizados no curso de "Algoritmos e estruturas de dados em JavaScript" da plataforma Free Code Camp. 
